@@ -1,0 +1,11 @@
+file_format: "1"
+id: dbboard
+name: DBBoard
+type: shield
+url: https://github.com/DylanBulfin/dbboard-zmk/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - dbboard_left
+  - dbboard_right
