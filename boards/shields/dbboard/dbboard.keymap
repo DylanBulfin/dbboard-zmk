@@ -4,25 +4,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define LAYER_Base 0
-#define LAYER_Nav 1
-#define LAYER_Num 2
-#define LAYER_Sym 3
-#define LAYER_Func 4
-#define LAYER_Meta 5
-#define LAYER_OneHand1 6
-#define LAYER_OneHand2 7
 
 / {
     keymap {
         compatible = "zmk,keymap";
 
-
         layer_Base {
             bindings = <
-      &kp ESC          &kp N1          &kp N2           &kp N3           &kp N4  &kp N5                                                                           &kp N6           &kp N7           &kp N8          &kp N9          &kp N0     &none
+      &kp ESC          &kp N1          &kp N2           &kp N3           &kp N4  &kp N5                                                                           &kp N6           &kp N7           &kp N8          &kp N9          &kp N0     &-
    &kp TAB           &kp Q           &kp W            &kp F            &kp P   &kp B                                                                            &kp J            &kp L            &kp U           &kp Y        &kp SEMI  &kp BSLH
  &kp LCTRL  &kp A  &kp LGUI R  &kp  S  &kp  T   &kp G                                                                            &kp M  &kp  N  &kp  E  &kp I  &kp O   &kp SQT
- &kp LSHFT           &kp Z           &kp X            &kp C            &kp D   &kp V        &mo 6       &mo 7    &kp LALT  &kp LALT    &kp LGUI     &kp LCTRL   &kp K            &kp H        &kp COMMA         &kp DOT        &kp FSLH     &none
+ &kp LSHFT           &kp Z           &kp X            &kp C            &kp D   &kp V        &mo 6       &mo 7    &kp LALT  &kp LALT    &kp LGUI     &kp LCTRL   &kp K            &kp H        &kp COMMA         &kp DOT        &kp FSLH     &kp BSLH
      &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 &kp 6     &kp 7 &kp 8 &kp 9 &kp 0 &kp 1 &kp 2
             >;
         };
