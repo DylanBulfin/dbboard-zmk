@@ -1,5 +1,5 @@
 config SHIELD_DBBOARD_LEFT
-  def_bool $(shields_list_contains,dbboard-left)
+  def_bool $(shields_list_contains,dbboard_left)
 
 config SHIELD_DBBOARD_RIGHT
-  def_bool $(shields_list_contains,dbboard-right)
+  def_bool $(shields_list_contains,dbboard_right)
